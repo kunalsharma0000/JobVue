@@ -1,0 +1,96 @@
+.navbar-nav{
+    display: flex !important;
+    justify-content: center !important;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    outline: 0;
+    box-shadow: none !important;
+    border-radius: 5px;
+}
+.form-control{
+    border-radius: 5px;
+}
+.nav-item {
+    text-decoration: none; /* Remove default underline */
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    position: relative;
+    font-size: 18px;
+    padding: 5px;
+  }
+  
+  .nav-item::after {
+    content: '';
+    position: absolute;
+    display: block;
+    left: 0;
+    bottom: -7px; /* Adjust the distance of the underline */
+    width: 0;
+    height: 2px; /* Thickness of the underline */
+    transition: width 0.4s; /* Add transition effect */
+  }
+  
+  .nav-item:hover::after {
+    background-color: rgb(6, 5, 5);
+    width: 100%;
+    color: rgb(3, 3, 3);
+  }
+ 
+  .homes{
+    font-size: 20px;
+   position: relative;
+    left: -5px;
+    top:2px
+  }
+.divider{
+    position: relative;
+    bottom: -12px;
+    border-bottom: 1px solid black;
+    border: 2px solid;
+}
+
+/*  */
+
+.dropdown-profile{
+  position: absolute;
+  top: 4.5rem;
+  right: 1.5rem;
+  width: 200px;
+  padding: 15px;
+  border-radius: 1px solid grey;
+  background-color: white;
+  border: 1px solid black;
+}
+.dropdown-profile p{
+  font-size: 20px;
+  text-decoration: none;
+  font-family:cursive ;
+}
+.dropdown-profile Link{
+  font-size: 30px;
+}
+.btns{
+  background-color: blue;
+  padding: 10px;
+  border: 1px solid blue;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  width: 100%;
+}
+.dropdown-profile::before{
+  position: absolute;
+  content: '';
+  top: -13px;
+  right: 0rem;
+  width: 25px;
+  height: 25px;
+  transform: rotate(45deg);
+  background-color: white;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+}

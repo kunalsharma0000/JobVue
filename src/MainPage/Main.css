@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main-pages{
+    background-color: rgba(89, 169, 169, 0.219);
+    min-height: 100vh;
+    
+}
+.page-heading h1{
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.upload-cv{
+    position: relative;
+    top: 80px;
+    /* display: flex;
+    justify-content: center; */
+    font-family: cursive;
+    left: 40px;
+}
+
+.page-heading{
+    position: relative;
+    top: 100px;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    
+}
+.main-image svg{
+    position: relative;
+    top: 80px;
+}
+.Get-job{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.dream-job p{
+    font-family: sans-serif;
+}
+.login-portal Link{
+    position: relative;
+    top: 100px;
+    
+
+}
+.login-portal button{
+    position: absolute;
+    top: 400px;
+     left: 319px;
+    width: 15%;
+}
+
+@media screen and (max-width:769px) {
+    .animation{
+        display: none;
+    }
+    .dream-job{
+        display: none;
+    }
+    .upload-cv{
+        left: 0;
+    }
+    .login-portal button {
+       
+        width: 25%;
+    }
+}
+@media screen and (max-width:576px) {
+    
+    .page-heading h1{
+        font-size: 20px;
+        padding: 0px 10px 0px 10px ;
+    }
+}
+@media screen and (max-width:426px) {
+    .sign-in svg{
+        width: 300px;
+        height: 350px;
+        position: relative;
+        top: 10px;
+    }
+    .login-portal button {
+        width: 43%;
+        left: 150px;
+        position: absolute;
+        font-size: 12px;
+    }
+}
+
+/* Apply-section */
+
+.apply-section{
+    padding: 30px 0px 30px 0px;
+}
+.apply-heading h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card-header h1{
+    font-size: 25px;
+  color: rgb(50, 189, 189);   
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.search-job p{
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+/* Job Category */
+
+.job-category{
+    padding: 30px 0px 30px 0px;
+    background-color: rgba(89, 169, 169, 0.219);
+}
+.popular-job{
+    margin: 10px;
+}
+.job-heading h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Load-more-button button{
+    background-color: blue;
+    border: 1px solid blue;
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+}
+@media screen and (max-width:768px) {
+       /* .card{
+  width: 0rem;
+      } */
+      .card{ 
+          min-width: 18rem;
+      }
+}
+/* Millions */
+
+.millions-of-job{
+ padding: 30px 0px 30px 0px;
+}
+.millions-heading h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.millions-heading p{
+    padding-right: 90px;
+}
+.list-heading ul li{
+ font-size: 20px;
+ padding: 10px;
+}
+.million-button button{
+    background-color: blue;
+    border: 1px solid blue;
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.subscribe-company{
+    position: relative;
+    left: -230px;
+    top: 27px;
+}
+@media screen and (max-width:768px) {
+    .millions-heading h1{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+    }
+    .millions-heading p{
+        padding-right: 0;
+      }
+      .list-heading{
+        padding-top: 10px;
+      }
+}
+
+
+@media screen and (max-width:768px) {
+    .subscribe-company{
+        left: 0;
+    }
+}

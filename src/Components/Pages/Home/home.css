@@ -1,0 +1,17 @@
+
+.home-section{
+    padding: 30px 30px 30px 30px;
+}
+.divider {
+    position: relative;
+    bottom: -12px;
+    border-bottom: 1px solid rgb(71, 68, 68) !important;
+    border: 1px solid !important;
+}
+.user-button{
+    border: none;
+    background: transparent;
+    color: blue;
+    font-weight: 600;
+
+}
